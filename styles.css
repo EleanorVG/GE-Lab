@@ -1,3 +1,15 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.content {
+  flex: 1;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +18,7 @@
 }
 
 .navbar {
-  background: #000000;
+  background: #08085d;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -20,7 +32,7 @@
 .navbar__container {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -31,7 +43,7 @@
 }
 
 #navbar__logo {
-  background-color: #ab7303;
+  background-color: #3c47e7;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -63,7 +75,7 @@
 }
 
 .navbar__item {
-  height: 80px;
+  height: 100px;
 }
 
 .navbar__links {
@@ -128,12 +140,12 @@ a.button {
 }
 */
 .navbar__links:hover {
-  color: #ab7303;
+  color: #1e8ecf;
   transition: all 0.3s ease;
 }
 
 .iconButton:hover {
-  background-color: #ab7303;
+  background-color: #1e8ecf;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -142,7 +154,7 @@ a.button {
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -204,13 +216,13 @@ a.button {
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 80px;
+    height: 100px;
     margin: 0;
   }
 
   #mobile-menu {
     position: absolute;
-    top: 20%;
+    top: 30%;
     right: 5%;
     transform: translate(5%, 20%);
   }
@@ -234,7 +246,49 @@ a.button {
 }
 
 /* Main Content CSS */
+.body{
+  
+}
+.profielen{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-self: center;
+  background-color: #000000;
+  color: white;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.profielcontainer{
+align-items: center;
+justify-items: center;
+}
+.profielfoto{
+  border-radius: 100px;
+  margin-bottom: 25px;
+}
+.profielButton{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.profielButton:hover {
+  background-color: #ab7303;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 
+ .peopleDiscriptionH1{
+  margin-bottom: 25px ;
+ }
+
+ .peopleDiscriptionP{
+  margin-bottom: 10px;
+ }
+
+
+/*
 .main {
   background-color: #141414;
 }
@@ -337,8 +391,8 @@ a.button {
   height: 80%;
   width: 80%;
 }
-
-/* Mobile Responsive */
+*/
+/* Mobile Responsive *//*
 @media screen and (max-width: 768px) {
   .main__container {
     display: grid;
@@ -389,4 +443,102 @@ a.button {
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
+}
+*/
+
+.publicationContainer{
+  height: 250px;
+  margin: 25px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  background-color: #ffffff;
+  max-width: 1300px;
+  align-items: center;
+  justify-self: center;
+ }
+
+.publicationContainerLeft{
+  align-items: center;
+  justify-self: center;
+  padding-top: 25px;
+}
+.publicationIcon{
+  height: 100px;
+}
+
+.publicationContainerMR{
+  display: grid;
+  background-color: #9facb3;
+  grid-template-columns:1fr 150px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.publicationContainerMR:hover{
+  background-color: #cdcecf;
+}
+
+.publicationContainerMiddle
+{
+  align-items: center;
+  justify-self: center;
+  padding: 20px;
+
+}
+.publicationContainerMiddle h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.publicationContainerRight{
+  align-items: center;
+  justify-self: center;
+  padding-top: 25px;
+}
+
+.publicationContainerRight button{
+  align-items: center;
+  justify-self: center;
+  height: 50px;
+  width: 125px;
+  color: white;
+  background-color: #08085d;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.publicationContainerRight button:hover {
+  background-color: 08085d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  background-color: #08085d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footerIcon{
+  height: 35px;
+  filter: invert(100%);
+  margin-bottom: 10px;
 }
