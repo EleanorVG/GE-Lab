@@ -52,19 +52,19 @@
     --small-font-size: 0.812rem;
   }
 }
-/*
+
 @media screen and (max-width: 576px) {
   :root {
     --big-font-size: 2rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1rem;
-    --h3-font-size: 0.75rem;
-    --larger-font-size: 0.75rem;
-    --large-font-size: 0.6rem;
-    --normal-font-size: 0.8rem;
-    --small-font-size: 0.7rem;
+    --h1-font-size: 1.25rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --larger-font-size: 1125.rem;
+    --large-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.812rem;
   }
-}*/
+}
 
 /*========== Base ==========*/
 
@@ -745,17 +745,15 @@ bottom: 12px;
 }
 
 @media screen and (max-width: 576px) {
-  .nav-logo{
-    font-size: 20px;
-  }
-  .section{
-    padding-block: 0.5rem 1rem 0 1rem;
+
+  .section {
+    margin-top: 2rem;
   }
   .container:not(.nav){
     padding-block: 1rem;
   }
 }
-/*  For small devices   */
+/*  For small devices   
 @media screen and (max-width: 400px) {
   
-}
+}*/
