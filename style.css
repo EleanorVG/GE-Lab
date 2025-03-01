@@ -142,7 +142,7 @@ textarea {
 
 
 .section {
-  padding-top: 6rem;
+  padding-top: 8rem;
   /*margin-block: 6rem;*/
 }
 
@@ -684,7 +684,8 @@ bottom: 12px;
   }
 
   .section{
-    padding-block: 4rem 1rem 0 1rem;
+    padding-top: 6rem;
+    /*padding-block: 4rem 1rem 0 1rem;*/
   }
 
   .contact-container,
@@ -744,9 +745,9 @@ bottom: 12px;
 
 @media screen and (max-width: 576px) {
 
-  .section {
+  /*.section {
     margin-top: 2rem;
-  }
+  }*/
   .container:not(.nav){
     padding-block: 1rem;
   }
