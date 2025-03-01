@@ -142,8 +142,8 @@ textarea {
 
 
 .section {
-  /*padding-top: 8rem;*/
-  margin-block: 6rem;
+  padding-top: 6rem;
+  /*margin-block: 6rem;*/
 }
 
 .section-title {
