@@ -52,7 +52,7 @@
     --small-font-size: 0.812rem;
   }
 }
-
+/*
 @media screen and (max-width: 576px) {
   :root {
     --big-font-size: 2rem;
@@ -64,7 +64,7 @@
     --normal-font-size: 0.8rem;
     --small-font-size: 0.7rem;
   }
-}
+}*/
 
 /*========== Base ==========*/
 
@@ -223,6 +223,7 @@ textarea {
 .nav-logo{
   font-family: var(--second-font);
   font-size: var(--h1-font-size);
+  min-width: ;
 }
 
 .nav-buttons {
@@ -740,7 +741,9 @@ bottom: 12px;
 }
 
 @media screen and (max-width: 576px) {
-  
+  .nav-logo{
+    font-size: 20px;
+  }
 }
 /*  For small devices   */
 @media screen and (max-width: 400px) {
