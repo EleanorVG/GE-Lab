@@ -712,6 +712,10 @@ bottom: 12px;
   .nav-buttons{
     column-gap: 1.5rem;
   }
+  .container:not(.nav){
+    padding-block: 2rem;
+  }
+}
 
   .swiper-pagination-bullets::before{
     width: 90px;   
@@ -743,6 +747,12 @@ bottom: 12px;
 @media screen and (max-width: 576px) {
   .nav-logo{
     font-size: 20px;
+  }
+  .section{
+    padding-block: 0.5rem 1rem 0 1rem;
+  }
+  .container:not(.nav){
+    padding-block: 1rem;
   }
 }
 /*  For small devices   */
