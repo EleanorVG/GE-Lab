@@ -715,7 +715,6 @@ bottom: 12px;
   .container:not(.nav){
     padding-block: 2rem;
   }
-}
 
   .swiper-pagination-bullets::before{
     width: 90px;   
