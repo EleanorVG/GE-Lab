@@ -722,7 +722,6 @@ bottom: 12px;
   }
   .team-container{
     grid-template-columns: none;
-    grid-template-rows: fit-content(420px);
   }
 
   .cardPublication {
